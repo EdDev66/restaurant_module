@@ -1,0 +1,96 @@
+body {
+    
+    font-family: 'Caveat', cursive;
+    letter-spacing: 0.1em;
+    font-size: 1.3em;
+}
+
+.bgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/bg.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  
+}
+
+.logo {
+    width: 300px;
+    text-align: center;
+
+}
+
+.head1, .head-p {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+.head1 {
+    padding-top: 40px;
+}
+
+.content {
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.navBar {
+    margin-top: 20px;
+}
+
+.card {
+   margin: auto;
+   text-align: center;
+   border: 5px solid #000;
+   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   background-color: rgba(255, 255, 255, 0.835);
+   border-radius: 20px;
+}
+
+.bottomBorder {
+    border-bottom: 4px solid #fff;
+    width: 5%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.card-img {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.navLink {
+    border: 2px solid #fff;
+    padding: 20px;
+    display: inline-block;
+    color: #fff;
+
+}
+
+.navLink:hover {
+    background: #333;
+}
+
+
+.dynamic {
+    margin-top: 40px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+
